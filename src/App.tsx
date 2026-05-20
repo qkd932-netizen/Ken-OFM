@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import kenMarketingTeam from './assets/images/ken_marketing_team_1779291345910.png';
 import { 
   BarChart3, 
   MessageSquare, 
@@ -1095,7 +1096,7 @@ const Hero = ({ onOpenModal, onOpenYoutube }: { onOpenModal: () => void; onOpenY
         >
           <div className="glass-card p-2 md:p-4 rounded-3xl relative">
             <img 
-              src="/src/assets/images/ken_marketing_team_1779291345910.png" 
+              src={kenMarketingTeam} 
               alt="KEN Marketing Team Dashboard Preview" 
               className="rounded-2xl w-full border border-white/5"
               referrerPolicy="no-referrer"
