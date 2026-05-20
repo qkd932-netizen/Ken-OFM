@@ -1091,13 +1091,14 @@ const Hero = ({ onOpenModal, onOpenYoutube }: { onOpenModal: () => void; onOpenY
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="relative max-w-5xl mx-auto"
+          className="relative max-w-7xl mx-auto w-full"
         >
           <div className="glass-card p-2 md:p-4 rounded-3xl relative">
             <img 
-              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop" 
-              alt="Dashboard Preview" 
+              src="/src/assets/images/ken_marketing_team_1779291345910.png" 
+              alt="KEN Marketing Team Dashboard Preview" 
               className="rounded-2xl w-full border border-white/5"
+              referrerPolicy="no-referrer"
             />
             
             {/* Overlay Dashboard Elements - Mocked with CSS/Lucide for effect */}
