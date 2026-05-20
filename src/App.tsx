@@ -1496,7 +1496,7 @@ const Safety = () => (
         <div className="order-2 lg:order-1 relative">
            <div className="glass-card p-4 rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(255,76,131,0.1)]">
              <img 
-               src="/src/assets/images/ofm_agency_portal_1779261334021.png" 
+               src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" 
                alt="OFM Creator Success Dashboard" 
                className="rounded-2xl w-full"
                referrerPolicy="no-referrer"
